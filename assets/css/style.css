@@ -1,0 +1,44 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.bg-dark-blue {
+  background-color: #0d28a6 !important;
+}
+
+.bg-light-blue {
+  background-color: #f1f3ff !important;
+}
+
+.w-fit {
+  width: fit-content !important;
+}
+
+/* ============================== */
+
+.banner-text {
+  height: 407px;
+}
+
+.banner-img {
+  position: absolute;
+}
+
+.banner-img img {
+  width: 100%;
+  max-width: 704px;
+}
+
+@media (max-width: 991px) {
+  .banner-text {
+    height: fit-content;
+  }
+
+  .banner-img {
+    position: relative;
+  }
+
+  .banner-img img {
+    width: 100%;
+  }
+}
